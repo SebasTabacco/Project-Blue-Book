@@ -12,21 +12,26 @@ body {
   font-size: 16px;
   line-height: 20px;
 }
+
 header img {
   animation: girar 15s linear infinite;
 }
+
 @keyframes girar {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 header {
   background-color: #161896;
   padding: 16px 0;
 }
+
 h1 {
   font-size: 3em;
   color: #ff4500;
@@ -35,6 +40,7 @@ h1 {
   position: relative;
   bottom: 35px;
 }
+
 h1::after {
   content: "";
   position: absolute;
@@ -45,10 +51,12 @@ h1::after {
   left: 0;
   animation: underline 2s infinite;
 }
+
 @keyframes underline {
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }
@@ -70,9 +78,11 @@ h1::after {
   border-radius: 10px;
   box-shadow: -8px 8px 8px grey;
 }
+
 nav {
   background-color: #51445a;
   margin-bottom: 20px;
+  border-top: 1px solid whitesmoke;
 }
 
 nav ul {
@@ -113,26 +123,36 @@ nav ul li a.activo {
 
 .holder {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 5px auto auto;
+  /*border-top: 1px solid whitesmoke;*/
+  /*height: 2px;
+  max-width: 200px;*/
+  padding: 0;
+  /*margin: 20px auto 0 auto;*/
 }
+
 h2 {
   color: #f0f4f8;
   font-weight: 400;
 }
+
 /*Inicio Home*/
 .bienbenidos {
   width: 75%;
   padding-right: 10px;
   box-sizing: border-box;
 }
+
 .testimonios {
   width: 25%;
   /*background-color: yellowgreen;*/
 }
+
 .columnas {
   display: flex;
   justify-content: space-between;
 }
+
 .bienbenidos p {
   font-size: 15px;
 }
@@ -140,9 +160,12 @@ h2 {
 .testimonio img {
   width: 200px;
   height: 300px;
-  float: right; /* Mueve la imagen al borde derecho */
-  margin-left: 100px; /* Opcional: agrega margen a la izquierda para espaciarla del contenido */
+  float: right;
+  /* Mueve la imagen al borde derecho */
+  margin-left: 100px;
+  /* Opcional: agrega margen a la izquierda para espaciarla del contenido */
 }
+
 /*fin Home*/
 .OIP img {
   width: 650px;
@@ -150,21 +173,25 @@ h2 {
   border-radius: 20px;
   box-shadow: -8px 8px 8px grey;
 }
+
 .accordion-button {
   background-color: rgb(199, 58, 6);
   margin: 2px;
   color: black;
 }
+
 .accordion-body {
   background-color: rgb(201, 202, 120);
   margin: 2px;
   color: white;
 }
+
 .carousel-item h5 {
   background-color: #333;
   color: aqua;
   margin: 3%;
 }
+
 .carousel-item p {
   color: aqua;
   background-color: #333;
